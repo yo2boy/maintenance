@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Ted Next Condensed";
+    src: url(../fonts/TedNext-CondensedItalic.ttf) format("truetype");
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Ted Next";
+    src: url(../fonts/TedNext.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Ted Next";
+    src: url(../fonts/TedNext-LightItalic.ttf) format("truetype");
+    font-weight: 300;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Ted Next Condensed";
+    src: url(../fonts/TedNext-CondensedBold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Ted Next";
+    src: url(../fonts/TedNext-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Ted Next";
+    src: url(../fonts/TedNext-Bold.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Ted Next";
+    src: url(../fonts/TedNext-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Ted Next";
+    src: url(../fonts/TedNext-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Ted Next";
+    src: url(../fonts/TedNext-BoldItalic.ttf) format("truetype");
+    font-weight: 900;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Ted Next";
+    src: url(../fonts/TedNext-Italic.ttf) format("truetype");
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Ted Next";
+    src: url(../fonts/TedNext-SemiBoldItalic.ttf) format("truetype");
+    font-weight: 600;
+    font-style: italic
+}
+
+@media only screen and (min-width: 300px) {
+    .img-outage {
+        margin-top: 30px;
+    }
+    .img-logo{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .langBtn {
+        background: red;
+        float: right;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #desktop-row{
+        margin-top: 80px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #contentRight{
+        margin-top: 10%;
+    }
+}
+
+body {
+    font-family: "Avenir Next",Arial,sans-serif!important;
+}
